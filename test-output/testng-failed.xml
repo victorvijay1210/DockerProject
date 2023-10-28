@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="Docker.dockerwithedge">
+        <methods>
+          <include name="edgetest"/>
+        </methods>
+      </class> <!-- Docker.dockerwithedge -->
+      <class name="Docker.dockerwithchrome">
+        <methods>
+          <include name="chrometest"/>
+        </methods>
+      </class> <!-- Docker.dockerwithchrome -->
+      <class name="Docker.dockerwithfirefox">
+        <methods>
+          <include name="firefoxtest"/>
+        </methods>
+      </class> <!-- Docker.dockerwithfirefox -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
