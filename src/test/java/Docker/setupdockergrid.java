@@ -14,7 +14,7 @@ public class setupdockergrid {
 	@BeforeTest
 	public void startdockergrid() throws Exception {
 		Runtime.getRuntime().exec("cmd /c start start_docker.bat");
-		Thread.sleep(25000);
+		Thread.sleep(35000);
 	}
 	
 	@AfterTest

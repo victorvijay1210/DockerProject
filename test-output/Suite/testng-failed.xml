@@ -13,11 +13,21 @@
           <include name="chrometest"/>
         </methods>
       </class> <!-- Docker.dockerwithchrome -->
+      <class name="Docker.dockerwithIOSmobile">
+        <methods>
+          <include name="testmobileview"/>
+        </methods>
+      </class> <!-- Docker.dockerwithIOSmobile -->
       <class name="Docker.dockerwithfirefox">
         <methods>
           <include name="firefoxtest"/>
         </methods>
       </class> <!-- Docker.dockerwithfirefox -->
+      <class name="Docker.dockerwithAndroidmobile">
+        <methods>
+          <include name="testmobileview"/>
+        </methods>
+      </class> <!-- Docker.dockerwithAndroidmobile -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

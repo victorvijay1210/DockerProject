@@ -1,2 +1,2 @@
-cd C:\Users\vijay\eclipse-workspace\DockerProject
+cd src\test\java\Ymlfile 
 docker-compose down

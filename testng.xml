@@ -7,6 +7,8 @@
       <class name="Docker.dockerwithchrome"/>
       <class name="Docker.dockerwithedge"/>
       <class name="Docker.dockerwithfirefox"/>
+      <class name="Docker.dockerwithAndroidmobile"/>
+      <class name="Docker.dockerwithIOSmobile"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
